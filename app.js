@@ -1079,7 +1079,7 @@ app.post('/deleteConnection', function(req, res){commsy.deleteConnection(req.bod
 	});
 });
 
-
-app.listen(3000, function(){
+var port = process.env.PORT || 8000
+app.listen(port, function(){
   console.log("Server started");
 });
