@@ -1,0 +1,8 @@
+{
+  "input":{
+    "locations":["./generated/"]
+  },
+  "output": {
+    "location": "./apidoc/index.html"
+  }
+}
